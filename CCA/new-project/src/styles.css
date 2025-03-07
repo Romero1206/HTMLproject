@@ -55,11 +55,16 @@ h1 {
 nav ul {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
 nav ul li {
     display: inline;
     margin: 0 10px;
+    flex: 1 1 45%;
 }
 
 a {
